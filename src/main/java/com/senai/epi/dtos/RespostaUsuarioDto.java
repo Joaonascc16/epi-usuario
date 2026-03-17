@@ -8,7 +8,8 @@ public class RespostaUsuarioDto {
     public RespostaUsuarioDto() {
     }
 
-    public RespostaUsuarioDto(String nome, String email) {
+    public RespostaUsuarioDto(String cpf, String nome, String email) {
+        this.cpf = cpf;
         this.nome = nome;
         this.login = email;
     }

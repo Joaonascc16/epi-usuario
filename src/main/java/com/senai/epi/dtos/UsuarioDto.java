@@ -9,11 +9,13 @@ public class UsuarioDto {
     public UsuarioDto() {
     }
 
-    public UsuarioDto(String nome, String email, String senha) {
-        this.nome = nome;
-        this.login = email;
-        this.senha = senha;
+    public String getCpf() {
+        return cpf;
     }
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
 
     public String getNome() {
         return nome;
