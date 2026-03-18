@@ -26,12 +26,12 @@ public class UsuarioEntity {
         this.nome = nome;
     }
 
-    public String getEmail() {
+    public String getLogin() {
         return login;
     }
 
-    public void setEmail(String email) {
-        this.login = email;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public String getSenha() {

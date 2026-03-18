@@ -25,12 +25,12 @@ public class UsuarioDto {
         this.nome = nome;
     }
 
-    public String getEmail() {
+    public String getlogin() {
         return login;
     }
 
-    public void setEmail(String email) {
-        this.login = email;
+    public void setEmail(String login) {
+        this.login = login;
     }
 
     public String getSenha() {
@@ -40,4 +40,11 @@ public class UsuarioDto {
     public void setSenha(String senha) {
         this.senha = senha;
     }
+    public String getLogin(){
+        return login;
+    }
+    public void setLogin() {
+        this.login = login;
+    }
+
 }
